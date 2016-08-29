@@ -37,7 +37,7 @@ export default function ModMultiEastron(devices: EastronDevice[]) {
                     reject(err)
 
                 } else {
-                    resolve()
+                    resolve(answer)
                 }
 
             })
