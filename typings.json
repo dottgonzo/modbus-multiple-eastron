@@ -6,6 +6,7 @@
   },
   "globalDependencies": {
     "async": "registry:dt/async#2.0.1+20160804113311",
-    "bluebird": "registry:dt/bluebird#3.0.0+20160811111256"
+    "bluebird": "registry:dt/bluebird#3.0.0+20160811111256",
+    "superagent": "registry:dt/superagent#2.0.0+20160811085415"
   }
 }
