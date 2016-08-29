@@ -15,7 +15,7 @@ interface EastronDevice {
 }
 
 
-export default function ModEastronKernel(devices: EastronDevice[]) {
+export default function ModMultiEastron(devices: EastronDevice[]) {
 
     return new Promise((resolve, reject) => {
 
