@@ -49,7 +49,7 @@ export default class ModEastronKernel {
     }
 
 
-    loop(callback: Function, o?: { interval: number, checkTime: boolean }) {
+    loop(callback: Function, o?: { interval?: number, checkTime?: boolean }) {
 
         const _this = this;
         if (!_this.activeloop) {
